@@ -22,7 +22,7 @@
                     "estado" => $row["estado"]
                 );
             }
-
+            
             $jsonstring = json_encode($json[0]);
             echo $jsonstring;
         }

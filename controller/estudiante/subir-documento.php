@@ -26,68 +26,65 @@
         }
 
         if($codigo == "3"){
-            $nombre_archivo.="_Certificacion_horas_VOAE";
+            $nombre_archivo.="_Certificado_Calificaciones";
         }
 
         if($codigo == "4"){
-            $nombre_archivo.="_Constancia_final_practica";
+            $nombre_archivo.="_Constancia_Trabajo_Social_Comunitario";
         }
 
         if($codigo == "5"){
-            $nombre_archivo.="_Solicitud_Examen_Himno";
+            $nombre_archivo.="_Constancia_Practica_Profesional";
         }
 
         if($codigo == "6"){
-            $nombre_archivo.="_Solicitud_Extensión_Titulos";
+            $nombre_archivo.="_Solicitud_Examen_Himno";
         }
 
         if($codigo == "7"){
-            $nombre_archivo.="_Boleta_Pago_Derechos_Graduacion";
+            $nombre_archivo.="_Solicitud_Extension_Tituki";
         }
 
         if($codigo == "8"){
-            $nombre_archivo.="_Boleta_Pago_Carnet";
+            $nombre_archivo.="_Copia_Titulo_Educacion_Media";
         }
 
         if($codigo == "9"){
-            $nombre_archivo.="_Timbre_Contratacion";
+            $nombre_archivo.="_Boleta_Pago_Carnet";
         }
 
         if($codigo == "10"){
-            $nombre_archivo.="_Titulo_secundaria";
+            $nombre_archivo.="_Boleta_Tramites_Graduacion";
         }
 
         if($codigo == "11"){
-            $nombre_archivo.="_Pago_derecho_graduacion";
+            $nombre_archivo.="_Boleta_Entrega_Titulo_Ventanilla";
         }
 
         if($codigo == "12"){
-            $nombre_archivo.="_Pago_carnet";
+            $nombre_archivo.="_Solvencia_Registro";
         }
 
         if($codigo == "13"){
-            $nombre_archivo.="_Pago_timbre";
+            $nombre_archivo.="_Foto_Ovalada";
         }
 
         if($codigo == "14"){
-            $nombre_archivo.="_Fotos";
+            $nombre_archivo.="_Timbre_Contratacion";
         }
 
         if($codigo == "15"){
-            $nombre_archivo.="_Solvencia_registro";
+            $nombre_archivo.="_Constancia_Conducta";
         }
 
         if($codigo == "16"){
-            $nombre_archivo.="_Otros";
+            $nombre_archivo.="_Justificacion_Mencion_Honorifica";
         }
 
         if($codigo == "17"){
-            $nombre_archivo.="_Constancia_conducta";
+            $nombre_archivo.="_Solicitud_Honores_Academicos";
         }
 
-        if($codigo == "18"){
-            $nombre_archivo.="_Formulario_honores_academicos";
-        }
 
         $nombre_archivo.= '.'.$extension;                   //AGREGAMOS LA EXTENSION AL ARCHIVO
 
